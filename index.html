@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aussie Stays – Premium Holiday Rentals</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Aussie<span>Stays</span></div>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="nav-links" id="nav-links">
+            <a href="#" id="nav-home" class="active">Home</a>
+            <a href="#" id="nav-properties">Properties</a>
+            <a href="#" id="nav-contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-view">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Find Your Perfect Australian Escape.</h1>
+                <p>Exclusive apartments and holiday homes for your next getaway.</p>
+                <a href="#properties-section" class="btn primary-btn">Explore Properties</a>
+            </div>
+        </section>
+
+        <section id="properties-section" class="section container">
+            <h2>Featured Properties</h2>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="apartment">Apartments</button>
+                <button class="filter-btn" data-filter="house">Houses</button>
+            </div>
+            <div class="property-grid" id="property-grid"></div>
+        </section>
+
+        <section id="contact-section" class="section bg-light">
+            <div class="container contact-container">
+                <h2>Get in Touch</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="How can we help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <main id="detail-view" class="container hidden">
+        <button id="back-btn" class="btn secondary-btn">&larr; Back to Properties</button>
+        
+        <div class="detail-container">
+            <div class="slideshow-container">
+                <img id="slide-img" src="" alt="Property Image">
+                <button class="slide-prev" id="prev-btn">&#10094;</button>
+                <button class="slide-next" id="next-btn">&#10095;</button>
+            </div>
+
+            <div class="detail-info">
+                <h1 id="detail-title"></h1>
+                <p id="detail-location" class="location-tag"></p>
+                <div id="detail-price" class="price-tag"></div>
+                <p id="detail-specs" class="specs-tag"></p>
+                <p id="detail-description" class="description-text"></p>
+
+                <div class="booking-box">
+                    <h3>Book Your Stay</h3>
+                    <p>Select your dates and schedule a reservation:</p>
+                    <div id="booking-widget" class="booking-placeholder">
+                        <a href="https://calendly.com" target="_blank" rel="noopener" class="btn primary-btn full-width">Schedule via Calendly</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AussieStays. All rights reserved.</p>
+    </footer>
+</body>
+</html>
