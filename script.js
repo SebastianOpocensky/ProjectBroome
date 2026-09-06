@@ -5,7 +5,7 @@ const properties = [
         title: "Modern Beachside Loft",
         type: "apartment",
         price: "$280 / night",
-        location: "Bondi Beach, NSW",
+        location: "Cable Beach, Broome (WA)",
         specs: "2 Guests • 1 Bedroom • 1 Bath",
         description: "Enjoy stunning coastal views and modern luxury in this newly renovated studio loft, just steps away from the beach.",
         images: [
@@ -18,12 +18,12 @@ const properties = [
         title: "Luxury Coastal Villa",
         type: "house",
         price: "$520 / night",
-        location: "Byron Bay, NSW",
+        location: "Coconut Wells, Broome (WA)",
         specs: "6 Guests • 3 Bedrooms • 2 Baths",
         description: "Spacious house with a private pool, open plan living, and short distance to local dining and surf spots.",
         images: [
-            "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+            ""
         ]
     },
     {
@@ -31,7 +31,7 @@ const properties = [
         title: "Downtown Penthouse Apartment",
         type: "apartment",
         price: "$340 / night",
-        location: "Melbourne CBD, VIC",
+        location: "Broome Centre, Broome (WA)",
         specs: "4 Guests • 2 Bedrooms • 2 Baths",
         description: "High-rise apartment overlooking the skyline. Fully equipped kitchen, private balcony, and close to tram lines.",
         images: [
