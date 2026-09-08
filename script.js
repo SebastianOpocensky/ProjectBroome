@@ -128,5 +128,15 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
     e.target.reset();
 });
 
+// Contact Page Form Listener
+const contactPageForm = document.getElementById('contact-page-form');
+if (contactPageForm) {
+    contactPageForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for contacting us! Jack or a team member will get back to you shortly.');
+        contactPageForm.reset();
+    });
+}
+
 // Init
 document.addEventListener('DOMContentLoaded', () => renderProperties());

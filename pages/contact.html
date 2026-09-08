@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – every avenue property</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">every<span>avenue</span>property</div>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#properties-section">Properties</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Owner Portrait / About Section -->
+        <section class="owner-profile">
+            <div class="owner-image-wrapper">
+                <img src="../assets/h1.png" alt="John Doe, Owner of every avenue property" class="owner-image">
+            </div>
+            <div class="owner-info">
+                <span class="sub-heading">Meet the Owner</span>
+                <h1>G'day, I'm John Doe</h1>
+                <p class="owner-bio">
+                    With over 15 years of experience in hospitality and coastal property management across Australia, 
+                    I founded every avenue property to connect travelers with handpicked, high-quality holiday homes. 
+                    Whether you are planning a weekend escape to Bondi or a family vacation in Byron Bay, 
+                    my team and I are here to make your stay effortless and memorable.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Grid: Details & Form -->
+        <section class="contact-grid-wrapper">
+            <!-- Contact Info Cards -->
+            <div class="contact-info-cards">
+                <h2>Direct Contact Details</h2>
+                <p class="contact-subtext">Have a question about a property or need assistance with your booking? Reach out directly.</p>
+
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>Headquarters</h3>
+                        <p>124 Ocean Drive, Bondi Beach, NSW 2026, Australia</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h3>Phone & WhatsApp</h3>
+                        <p><a href="tel:+61291234567">+61 2 9123 4567</a></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">✉️</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:jack@aussiestays.com.au">jack@aussiestays.com.au</a></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">⏰</div>
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>Mon – Fri: 8:30 AM – 6:00 PM (AEST)<br>Sat – Sun: 9:00 AM – 2:00 PM (AEST)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2>Send a Message</h2>
+                <form id="contact-page-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name</label>
+                        <input type="text" id="contact-name" required placeholder="e.g. Sarah Jenkins">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" required placeholder="sarah@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number (Optional)</label>
+                        <input type="tel" id="contact-phone" placeholder="+61 ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" placeholder="General Inquiry / Booking Question">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" rows="5" required placeholder="Tell us about your upcoming trip or inquiry..."></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn full-width">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 every avenue property. All rights reserved.</p>
+    </footer>
+</body>
+</html>

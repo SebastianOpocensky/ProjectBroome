@@ -218,3 +218,141 @@ footer { text-align: center; padding: 2rem; background-color: var(--accent-blue)
     .nav-links.active { display: flex; }
     .detail-container { grid-template-columns: 1fr; }
 }
+
+
+/* ==========================================
+   Contact Page & Owner Portrait Styles
+   ========================================== */
+
+/* Owner Portrait Section */
+.owner-profile {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background: var(--bg-card);
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+}
+
+.owner-image-wrapper {
+    width: 100%;
+    height: 380px;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.owner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sub-heading {
+    display: inline-block;
+    color: var(--accent-orange);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.owner-info h1 {
+    font-size: 2.2rem;
+    color: var(--accent-blue);
+    margin-bottom: 1.2rem;
+}
+
+.owner-bio {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Contact Grid Layout */
+.contact-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 3rem;
+}
+
+.contact-info-cards h2, 
+.contact-form-wrapper h2 {
+    color: var(--accent-blue);
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subtext {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+}
+
+/* Single Contact Info Cards */
+.info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    background: var(--bg-card);
+    padding: 1.2rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.info-icon {
+    font-size: 1.5rem;
+    background: #FAF0EC; /* Sehr helle Orange-Nuance als Hintergrund */
+    padding: 0.6rem;
+    border-radius: var(--radius);
+    line-height: 1;
+}
+
+.info-card h3 {
+    font-size: 1rem;
+    color: var(--accent-blue);
+    margin-bottom: 0.2rem;
+}
+
+.info-card p, .info-card a {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.info-card a:hover {
+    color: var(--accent-orange);
+}
+
+.contact-form-wrapper {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+}
+
+/* Responsive Styles for Contact Page */
+@media (max-width: 900px) {
+    .owner-profile {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    .owner-image-wrapper {
+        height: 300px;
+    }
+
+    .contact-grid-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
