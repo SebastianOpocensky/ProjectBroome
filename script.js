@@ -2,15 +2,24 @@
 const properties = [
     {
         id: 1,
-        title: "Modern Beachside Loft",
+        title: "Frangipani Suite",
         type: "apartment",
         price: "$280 / night",
         location: "Cable Beach, Broome (WA)",
         specs: "2 Guests • 1 Bedroom • 1 Bath",
-        description: "Enjoy stunning coastal views and modern luxury in this newly renovated studio loft, just steps away from the beach.",
+        description: "The Frangipani Suite is a spacious one-bedroom villa designed for relaxed tropical living. Surrounded by lush greenery and the delicate scent of frangipani blossoms, this private retreat offers the perfect blend of comfort and serenity just moments from the region’s stunning coastline. Step outside into your own secluded oasis, where an open-air shower invites you to unwind beneath the sky, and a private BBQ area sets the scene for easy evenings and alfresco dining." 
+        
+        , 
         images: [
-            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80"
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB--2.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB--3.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB--13.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB--8.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB--9.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB-.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB-9836.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB-9845.jpg",
+            "assets/Frangipani Suite/Frangipani Suite/Frang Mantra Air BnB-9854.jpg",
         ]
     },
     {
