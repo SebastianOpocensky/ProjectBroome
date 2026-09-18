@@ -22,6 +22,13 @@ body {
     background-color: var(--bg-main);
     color: var(--text-primary);
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .hidden {
@@ -200,7 +207,7 @@ body {
 .form-group { display: flex; flex-direction: column; gap: 0.5rem; }
 .form-group input, .form-group textarea { padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--radius); }
 
-footer { text-align: center; padding: 2rem; background-color: var(--accent-blue); color: #FFF; margin-top: 4rem; }
+footer { text-align: center; padding: 2rem; background-color: var(--accent-blue); color: #FFF; margin-top: auto; }
 
 /* Mobile Menu Media Query */
 @media (max-width: 768px) {
