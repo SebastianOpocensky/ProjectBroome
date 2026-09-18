@@ -45,6 +45,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent-blue);
+    text-decoration: none;
 }
 
 .logo span {
