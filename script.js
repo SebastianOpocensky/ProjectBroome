@@ -95,6 +95,26 @@ const properties = [
             "assets/The Hawkes Nest/The Hawkes Nest/office.avif",
             "assets/The Hawkes Nest/The Hawkes Nest/outdoor kitchen.avif"            
         ]
+    },
+    {
+        id: 5,
+        title: "Pet Friendly Paradise",
+        type: "house",
+        price: "$PriceMissing / night",
+        location: "LocationMissing, Broome (WA)",
+        specs: "6 Guests • 3 Bedrooms • InformationMissing Baths",
+        description: "Settle into this welcoming 3-bedroom, 1-bath, 2-WC home perfectly positioned in a central location close to the airport, shops, cafes and attractions. With a huge yard, plenty of secure parking for multiple vehicles, boats, or trailers, and a relaxed outdoor space to unwind, it’s ideal for families, friends, or work trips. Pet-friendly and spacious, this comfortable home offers the perfect balance of convenience, room to spread out, and a place to truly feel at home",
+        images: [
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/exterior.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/exterior2.jpg",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/king bedroom.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/kitchen_ dining.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/laundry_toilet.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/lounge.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/queen bedroom.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/singles room.png",
+            "assets/Pet Friendly Paradise/Pet Friendly Paradise/bathroom.png"
+        ]
     }
 ];
 
