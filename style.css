@@ -172,6 +172,7 @@ main {
 .slide-next { right: 10px; }
 
 .location-tag { color: var(--text-muted); font-weight: 500; margin-bottom: 0.5rem; }
+.stra-tag { color: var(--accent-blue); font-weight: 700; margin: 0.5rem 0 1rem; }
 .price-tag { font-size: 1.5rem; color: var(--accent-orange); font-weight: 700; margin-bottom: 1rem; }
 .booking-box {
     margin-top: 2rem;

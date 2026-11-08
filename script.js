@@ -6,6 +6,7 @@ const properties = [
         type: "apartment",
         price: "$PriceMissing / night",
         location: "Millington Road, Cable Beach",
+        STRA: "STRA - TBD",
         specs: "2 Guests • 1 Bedroom • 1 Bath",
         description: "The Frangipani Suite is a spacious one-bedroom villa designed for relaxed tropical living. Surrounded by lush greenery and the delicate scent of frangipani blossoms, this private retreat offers the perfect blend of comfort and serenity just moments from the region’s stunning coastline. Step outside into your own secluded oasis, where an open-air shower invites you to unwind beneath the sky, and a private BBQ area sets the scene for easy evenings and alfresco dining." 
         
@@ -28,6 +29,7 @@ const properties = [
         type: "apartment",
         price: "$PriceMissing / night",
         location: "Oryx Road, Cable Beach (WA)",
+        STRA: "STRA - TBD",
         specs: "2 Guests • Open Plan Studio • 1 Bath",
         description: "Situated just a short walk from Cable Beach entertainment precinct housing restaurants, a brewery and the world-famous beach itself this ground floor studio apartment is perfect for weekend getaways, business trips or a beachside escape! Within the Oaks Sanctuary Resort is a restaurant, multiple pools, a hair salon and lots of wildlife - including various bird species, lizards and even wallabies!",
         images: [
@@ -51,6 +53,7 @@ const properties = [
         type: "house",
         price: "$PriceMissing / night",
         location: "Oryx Road, Cable Beachh",
+        STRA: "STRA - TBD",
         specs: "6 Guests • 3 Bedrooms • 2 Baths",
         description: "Experience the best of Broome from this stylish 3-bedroom, 2-bathroom villa located within the sought-after Oaks Sanctuary Resort. Perfectly positioned just a short walk from the Cable Beach entertainment precinct and the world-famous shoreline, you’ll have restaurants, bars, and stunning natural surrounds right at your doorstep. The villa offers a relaxed, modern space ideal for families, couples, or groups, with comfortable living areas and a private setting to unwind.",
         images: [
@@ -80,6 +83,7 @@ const properties = [
         type: "house",
         price: "$PriceMissing / night",
         location: "LocationMissing, Broome (WA)",
+        STRA: "6726MVIRS0GV",
         specs: "6 Guests • 3 Bedrooms • 2 Baths",
         description: "Spacious 3-bed retreat in peaceful Cable Beach. Surrounded by lush tropical gardens, with a huge pool, entertainment deck, and kids’ play area. Balinese-style furniture and beautiful Aboriginal art add warmth and charm. Loads of books, toys and games for the kids. Situated in a quiet family-friendly cul-de-sac with plenty of off-street parking, including room for a caravan. Spend your days lounging by the huge pool, unwinding on the shaded entertainment deck, or relaxing with a book from our collection (for kids and grown-ups alike). Kids will love the play area with monkey bars and swings, while adults will appreciate the quiet, laid-back vibe of the neighbourhood.",
         images: [
@@ -102,7 +106,8 @@ const properties = [
         type: "house",
         price: "$PriceMissing / night",
         location: "LocationMissing, Broome (WA)",
-        specs: "6 Guests • 3 Bedrooms • InformationMissing Baths",
+        STRA: "6725ZBCJW3MF",
+        specs: "6 Guests • 3 Bedrooms • 1.5 Baths",
         description: "Settle into this welcoming 3-bedroom, 1-bath, 2-WC home perfectly positioned in a central location close to the airport, shops, cafes and attractions. With a huge yard, plenty of secure parking for multiple vehicles, boats, or trailers, and a relaxed outdoor space to unwind, it’s ideal for families, friends, or work trips. Pet-friendly and spacious, this comfortable home offers the perfect balance of convenience, room to spread out, and a place to truly feel at home",
         images: [
             "assets/Pet Friendly Paradise/Pet Friendly Paradise/exterior.png",
@@ -154,6 +159,7 @@ function openPropertyDetail(property) {
     document.getElementById('detail-location').innerText = property.location;
     document.getElementById('detail-price').innerText = property.price;
     document.getElementById('detail-specs').innerText = property.specs;
+    document.getElementById('detail-stra').innerText = `STRA: ${property.STRA || 'TBD'}`;
     document.getElementById('detail-description').innerText = property.description;
 
     currentPropertyImages = property.images;
